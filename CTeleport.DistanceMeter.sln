@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5766EB39-B232-48FC-BCF6-B9B1428E3151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTeleport.DistanceMeter.Api", "src\CTeleport.DistanceMeter.Api\CTeleport.DistanceMeter.Api.csproj", "{09522260-14DF-4FB1-9B05-C04F1D7B3C39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{240AEFA9-7B60-4A6A-8FCA-57B17C39E86B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{4372C456-3C9A-4FCA-A07B-7B1BBBE11862}"
+ProjectSection(SolutionItems) = preProject
+	.dockerignore = .dockerignore
+	.gitignore = .gitignore
+	docker-compose.yaml = docker-compose.yaml
+	Dockerfile = Dockerfile
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTeleport.DistanceMeter.Domain", "src\CTeleport.DistanceMeter.Domain\CTeleport.DistanceMeter.Domain.csproj", "{3528811F-DED2-438C-9F4F-12D93FEB753B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTeleport.DistanceMeter.Infrastructure", "src\CTeleport.DistanceMeter.Infrastructure\CTeleport.DistanceMeter.Infrastructure.csproj", "{F7E633B4-2916-4622-A680-47754BBE9CF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTeleport.DistanceMeter.SharedCore", "src\CTeleport.DistanceMeter.SharedCore\CTeleport.DistanceMeter.SharedCore.csproj", "{992F22DA-EFF9-47FC-9487-BCB9901F7B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTeleport.DistanceMeter.Application", "src\CTeleport.DistanceMeter.Application\CTeleport.DistanceMeter.Application.csproj", "{3786EACC-1C94-420B-BE7F-1FFF5C6CFBEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{6899BF54-0874-4E3F-9AEB-7E82731CF49A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration", "integration", "{E3D034E8-680A-47F6-845B-53C00E82E1BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTeleport.DistanceMeter.Infrastructure.UnitTests", "test\unit\CTeleport.DistanceMeter.Infrastructure.UnitTests\CTeleport.DistanceMeter.Infrastructure.UnitTests.csproj", "{5AE07994-9D0F-4CDE-A43A-4D978A2C3FF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTeleport.DistanceMeter.Application.UnitTests", "test\unit\CTeleport.DistanceMeter.Application.UnitTests\CTeleport.DistanceMeter.Application.UnitTests.csproj", "{B65D2A41-9FC8-4DEA-8A71-9A52C6D2CFB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTeleport.DistanceMeter.IntegrationTests", "test\integration\CTeleport.DistanceMeter.IntegrationTests\CTeleport.DistanceMeter.IntegrationTests.csproj", "{A440F3D5-C795-4FC4-8189-E23F06966B3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09522260-14DF-4FB1-9B05-C04F1D7B3C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09522260-14DF-4FB1-9B05-C04F1D7B3C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09522260-14DF-4FB1-9B05-C04F1D7B3C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09522260-14DF-4FB1-9B05-C04F1D7B3C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3528811F-DED2-438C-9F4F-12D93FEB753B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3528811F-DED2-438C-9F4F-12D93FEB753B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3528811F-DED2-438C-9F4F-12D93FEB753B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3528811F-DED2-438C-9F4F-12D93FEB753B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E633B4-2916-4622-A680-47754BBE9CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E633B4-2916-4622-A680-47754BBE9CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E633B4-2916-4622-A680-47754BBE9CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E633B4-2916-4622-A680-47754BBE9CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{992F22DA-EFF9-47FC-9487-BCB9901F7B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992F22DA-EFF9-47FC-9487-BCB9901F7B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992F22DA-EFF9-47FC-9487-BCB9901F7B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992F22DA-EFF9-47FC-9487-BCB9901F7B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3786EACC-1C94-420B-BE7F-1FFF5C6CFBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3786EACC-1C94-420B-BE7F-1FFF5C6CFBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3786EACC-1C94-420B-BE7F-1FFF5C6CFBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3786EACC-1C94-420B-BE7F-1FFF5C6CFBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE07994-9D0F-4CDE-A43A-4D978A2C3FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE07994-9D0F-4CDE-A43A-4D978A2C3FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE07994-9D0F-4CDE-A43A-4D978A2C3FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE07994-9D0F-4CDE-A43A-4D978A2C3FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B65D2A41-9FC8-4DEA-8A71-9A52C6D2CFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65D2A41-9FC8-4DEA-8A71-9A52C6D2CFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65D2A41-9FC8-4DEA-8A71-9A52C6D2CFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65D2A41-9FC8-4DEA-8A71-9A52C6D2CFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A440F3D5-C795-4FC4-8189-E23F06966B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A440F3D5-C795-4FC4-8189-E23F06966B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A440F3D5-C795-4FC4-8189-E23F06966B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A440F3D5-C795-4FC4-8189-E23F06966B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09522260-14DF-4FB1-9B05-C04F1D7B3C39} = {5766EB39-B232-48FC-BCF6-B9B1428E3151}
+		{3528811F-DED2-438C-9F4F-12D93FEB753B} = {5766EB39-B232-48FC-BCF6-B9B1428E3151}
+		{F7E633B4-2916-4622-A680-47754BBE9CF4} = {5766EB39-B232-48FC-BCF6-B9B1428E3151}
+		{992F22DA-EFF9-47FC-9487-BCB9901F7B59} = {5766EB39-B232-48FC-BCF6-B9B1428E3151}
+		{3786EACC-1C94-420B-BE7F-1FFF5C6CFBEC} = {5766EB39-B232-48FC-BCF6-B9B1428E3151}
+		{6899BF54-0874-4E3F-9AEB-7E82731CF49A} = {240AEFA9-7B60-4A6A-8FCA-57B17C39E86B}
+		{E3D034E8-680A-47F6-845B-53C00E82E1BF} = {240AEFA9-7B60-4A6A-8FCA-57B17C39E86B}
+		{5AE07994-9D0F-4CDE-A43A-4D978A2C3FF4} = {6899BF54-0874-4E3F-9AEB-7E82731CF49A}
+		{B65D2A41-9FC8-4DEA-8A71-9A52C6D2CFB5} = {6899BF54-0874-4E3F-9AEB-7E82731CF49A}
+		{A440F3D5-C795-4FC4-8189-E23F06966B3B} = {E3D034E8-680A-47F6-845B-53C00E82E1BF}
+	EndGlobalSection
+EndGlobal
