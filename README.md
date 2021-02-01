@@ -25,8 +25,9 @@ All the utility classes used throughout the whole solution. In a real-world appl
 ### Testing
 Each layer/project has a sibling unit-tests project to cover it by tests. In Addition, there is another test project called `IntegrationTests` which contains several integration API tests and one end-to-end test, see `IntegrationTests.DistanceMeterServiceTests` (placed here for simplicity, but in a real-world application such tests should be kept separately).
 
-
 ### Some aspects were deliberately skipped to make the solution doable in a short period of time:
 1. Logging
 2. Swagger API documentation
 3. HTTPS
+4. I18N
+5. Mapping (automapper or something similar)

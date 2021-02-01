@@ -20,8 +20,8 @@
         public async Task<Result<double>> GetDistanceAsync(IataCouple couple, CancellationToken token)
         {
             var firstPlace = placeInfoProvider.GetPlaceInfoAsync(couple.FirstIata, token);
-            var secondSecond = placeInfoProvider.GetPlaceInfoAsync(couple.SecondIata, token);
-            var results = await Task.WhenAll(firstPlace, secondSecond);
+            var secondPlace = placeInfoProvider.GetPlaceInfoAsync(couple.SecondIata, token);
+            var results = await Task.WhenAll(firstPlace, secondPlace);
 
             if (results.Any(x => x.IsError))
             {
